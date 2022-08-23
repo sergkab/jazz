@@ -15,6 +15,8 @@ header{
 }
 
 nav{
+    display: flex;
+    justify-content: space-evenly;
     position: absolute;
     width: 600px;
     height: 40px;
@@ -25,37 +27,21 @@ nav{
 
 .menu{
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    
-    position: absolute;
-    width: 300px;
+
     height: 26px;
-    left: 90px;
-    top: calc(50% - 26px/2);
     border: 1px solid blue;
 }
 
 .menu_item{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    
-    position: absolute;
-    width: 432px;
-    height: 26px;
-    left: 190px;
-    top: calc(50% - 26px/2);
+
 }
 
 .koechto{
     position: absolute;
     width: 496px;
     height: 249px;
-    left: 344px;
-    top: 20px;
+    left: 300px;
+    top: 10px;
 
 /* display/2 */
 
